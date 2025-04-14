@@ -118,21 +118,21 @@
 
 // #7
 
-const now = new Date();
-const hour = now.getHours();
-let greeting;
+// const now = new Date();
+// const hour = now.getHours();
+// let greeting;
 
-if (hour >= 23 || hour < 5) {
-    greeting = "Good night!";
-} else if (hour >= 5 && hour < 11) {
-    greeting = "Good morning!";
-} else if (hour >= 11 && hour < 17) {
-    greeting = "Good day!";
-} else if (hour >= 17 && hour < 23) {
-    greeting = "Good evening!";
-}
+// if (hour >= 23 || hour < 5) {
+//     greeting = "Good night!";
+// } else if (hour >= 5 && hour < 11) {
+//     greeting = "Good morning!";
+// } else if (hour >= 11 && hour < 17) {
+//     greeting = "Good day!";
+// } else if (hour >= 17 && hour < 23) {
+//     greeting = "Good evening!";
+// }
 
-console.log(greeting);
+// console.log(greeting);
 
 // switch (true) {
 //     case (hour >= 23 || hour <= 5):
