@@ -71,25 +71,25 @@
     
 // #4
     
-        function showUser(id) {
-            if (id < 0) {
-                throw new Error(`ID must not be negative: ${id}`);
-            }
-            return { id: id };
-        }
+        // function showUser(id) {
+        //     if (id < 0) {
+        //         throw new Error(`ID must not be negative: ${id}`);
+        //     }
+        //     return { id: id };
+        // }
         
-        function showUsers(ids) {
-            const result = [];
-            for (let id of ids) {
-                try {
-                    const user = showUser(id);
-                    result.push(user);
-                } catch (error) {
-                    console.error(error.message);
-                }
-            }
-            return result;
-        }
+        // function showUsers(ids) {
+        //     const result = [];
+        //     for (let id of ids) {
+        //         try {
+        //             const user = showUser(id);
+        //             result.push(user);
+        //         } catch (error) {
+        //             console.error(error.message);
+        //         }
+        //     }
+        //     return result;
+        // }
         
-        const users = showUsers([7, -12, 44, 22]);
-        console.log(users);
+        // const users = showUsers([7, -12, 44, 22]);
+        // console.log(users);
